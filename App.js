@@ -1,20 +1,50 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import React, { useEffect } from "react";;
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import HomeScreen from "./screens/HomeScreen";
+import OnboardingScreen from "./screens/OnboardingScreen";
+
+const AppStack = createStackNavigator();
+
+const App = () => {
+  const [isFirstLaunch,setIsFirstLaunch] = React.useState(null);
+  useEffect(()=>{
+    AsyncStorage.getItem('AlreadyLaunched').then(value=> {
+      if(value==null){
+        AsyncStorage.setItem('AlreadyLaunched','true');
+        setIsFirstLaunch(true);
+      }else{
+        setIsFirstLaunch(false);
+      }
+    })
+  },[]);
+
+  if(isFirstLaunch == null){
+    return null;
+  }else if(isFirstLaunch == true){
+    return <HomeScreen />
+    // return(
+    //   <NavigationContainer>
+    //     <AppStack.Navigator headerShown = "false">
+    //       <AppStack.Screen name="Aristotle" component={OnboardingScreen}/>
+    //       <AppStack.Screen name="Home" component={HomeScreen}/>
+    //     </AppStack.Navigator>
+    //   </NavigationContainer>
+    // );
+  }else{
+    // return <HomeScreen />
+    return(
+      <NavigationContainer>
+        <AppStack.Navigator headerShown = "false">
+          <AppStack.Screen name="Aristotle" component={OnboardingScreen}/>
+          <AppStack.Screen name="Home" component={HomeScreen}/>
+        </AppStack.Navigator>
+      </NavigationContainer>
+    );
+  }
+
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
