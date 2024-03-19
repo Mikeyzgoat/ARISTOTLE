@@ -5,6 +5,7 @@ import React, { useEffect } from "react";;
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeScreen from "./screens/HomeScreen";
 import OnboardingScreen from "./screens/OnboardingScreen";
+import ChatBot from './screens/ChatBot';
 
 const AppStack = createStackNavigator();
 
@@ -40,6 +41,7 @@ const App = () => {
         <AppStack.Navigator headerShown = "false">
           <AppStack.Screen name="Aristotle" component={OnboardingScreen}/>
           <AppStack.Screen name="Home" component={HomeScreen}/>
+          <AppStack.Screen name="ChatBot" component={ChatBot}/>
         </AppStack.Navigator>
       </NavigationContainer>
     );
@@ -48,3 +50,5 @@ const App = () => {
 }
 
 export default App;
+
+

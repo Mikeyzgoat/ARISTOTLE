@@ -6,7 +6,7 @@ import Onboarding from 'react-native-onboarding-swiper';
 const Dots = ({selected}) => {
     let backgroundColor;
 
-    backgroundColor = selected ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.3)';
+    backgroundColor = selected ? '#a9a9a9' : '#f0f8ff';
 
     return (
         <View
@@ -25,7 +25,7 @@ const Skip = ({...props}) => (
         style={{marginHorizontal:10}}
         {...props}
     >
-        <Text style={{fontSize:16}}>Skip</Text>
+        <Text style={{fontSize:16,color:'#f0f8ff'}}>Skip</Text>
     </TouchableOpacity>
 );
 
@@ -34,7 +34,7 @@ const Next = ({...props}) => (
         style={{marginHorizontal:10}}
         {...props}
     >
-        <Text style={{fontSize:16}}>Next</Text>
+        <Text style={{fontSize:16,color:'#f0f8ff'}}>Next</Text>
     </TouchableOpacity>
 );
 
@@ -43,7 +43,7 @@ const Done = ({...props}) => (
         style={{marginHorizontal:10}}
         {...props}
     >
-        <Text style={{fontSize:16}}>Done</Text>
+        <Text style={{fontSize:16,color:'#f0f8ff'}}>Done</Text>
     </TouchableOpacity>
 );
 
@@ -58,22 +58,23 @@ const OnboardingScreen = ({navigation}) => {
         onDone={() => navigation.navigate("Home")}
         pages={[
           {
-            backgroundColor: '#a6e4d0',
+            backgroundColor: '#000000',
             image: <Image source={require('../assets/onboarding-img1.png')} />,
-            title: 'Connect to the World',
-            subtitle: 'A New Way To Connect With The World',
+            title: 'Welcome to Aristotle',
+            subtitle: 'Your personalised media hub',
+            
           },
           {
-            backgroundColor: '#fdeb93',
+            backgroundColor: '#000000',
             image: <Image source={require('../assets/onboarding-img2.png')} />,
-            title: 'Share Your Favorites',
-            subtitle: 'Share Your Thoughts With Similar Kind of People',
+            title: 'Smart object detection',
+            subtitle: 'Let our AI do the work for you!',
           },
           {
-            backgroundColor: '#e9bcbe',
+            backgroundColor: '#000000',
             image: <Image source={require('../assets/onboarding-img3.png')} />,
-            title: 'Become The Star',
-            subtitle: "Let The Spot Light Capture You",
+            title: 'Elevate your images with AI-powered prompts',
+            subtitle: "Empowered by our Chatbot",
           },
         ]}
       />

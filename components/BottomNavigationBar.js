@@ -1,18 +1,19 @@
-// components/BottomNavigationBar.js
+
 import React from 'react';
 import { TouchableOpacity, View, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-export default function BottomNavigationBar({onCameraPress}) {
+export default function BottomNavigationBar({ onCameraPress, onSettingsPress, onPhotoLibraryPress }) {
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.iconContainer}>
-        <MaterialIcons name="settings" size={24} color="black" />
-      </TouchableOpacity >
+      <TouchableOpacity style={styles.iconContainer} onPress={onSettingsPress}>
+        <MaterialCommunityIcons name="robot-happy" size={24} color="black" />
+      </TouchableOpacity>
       <TouchableOpacity style={styles.iconContainer} onPress={onCameraPress}>
         <MaterialIcons name="photo-camera" size={24} color="black" />
       </TouchableOpacity>
-      <TouchableOpacity style={styles.iconContainer}>
+      <TouchableOpacity style={styles.iconContainer} onPress = {onPhotoLibraryPress}>
         <MaterialIcons name="photo-library" size={24} color="black" />
       </TouchableOpacity>
     </View>
@@ -37,4 +38,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
 

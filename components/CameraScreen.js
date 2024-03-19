@@ -12,7 +12,7 @@ export default function CameraScreen({ onClose }) {
 
   useEffect(() => {
     (async () => {
-      const { status } = await Camera.requestPermissionsAsync();
+      const { status } = await Camera.requestCameraPermissionsAsync();
       setHasPermission(status === 'granted');
     })();
   }, []);
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   },
   captureButton: {
     position: 'absolute',
-    bottom: 20,
+    bottom: 70,
     left: '50%', // Align to the center horizontally
     transform: [{ translateX: -25 }], // Adjust based on the button width
     width: 50,
