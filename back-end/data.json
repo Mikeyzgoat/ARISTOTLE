@@ -1,0 +1,328 @@
+{
+    "users": [
+        "Teja",
+        "Yoma",
+        "Tejavu",
+        "aditya",
+        "Swaroop",
+        "Yogi",
+        "Shreyas",
+        "Shasha",
+        "Tejasr",
+        "Shas",
+        "ash",
+        "Vija",
+        "Sks",
+        "Priya",
+        "Aditya14",
+        "Arpitha",
+        "Nandan",
+        "Anjan",
+        "John",
+        "Sjs",
+        "Skss",
+        "J",
+        "Skssa",
+        "Yogith",
+        "Yash"
+    ],
+    "chathistory": [
+        {
+            "Teja": [
+                {
+                    "role": "user",
+                    "content": "Describe racket "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Ah, the racket. A marvel of engineering and simplicity, the humble racket. A flat, rectangular piece of wood or metal, crafted to perfection, it serves a simple purpose yet with unmatched effectiveness.\n\nIts design is remarkably effective for both offensive and defensive play. A racket is designed to generate power and control, allowing the user to hit the ball with sufficient force to send it soaring or to block an opponent's shots.\n\nThe grip is crucial for control, with the racket head resting comfortably in the palm. The handle, often crafted from wood or synthetic materials, allows for comfortable and secure grip.\n\nThe materials used for rackets vary, with wood being the most traditional and preferred choice. Modern rackets often incorporate metal frames for enhanced durability and performance.\n\nThe sound of the racket is one of its most distinctive features, a crisp and satisfying \"pop\" as the shuttlecock hits the ball. This sound, while seemingly insignificant, is an essential element of the game, adding to the overall experience.\n\nThe racket is a versatile tool that can be used in various ways in the world of sports. From tennis and badminton to badminton and squash, the racket is the quintessential weapon for athletes seeking to dominate their chosen sport.\n\nSo, what else can I tell you about the humble racket? What questions can I answer about this fascinating object?"
+                },
+                {
+                    "role": "user",
+                    "content": "Describe Taj Mahal in 5 lines "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Taj Mahal is a white marble mausoleum built by Mughal emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. It is situated in the heart of the city of Agra, India. The Taj Mahal is a marvel of architecture, with intricate design and stunning construction. It is a testament to the artistry and craftsmanship of the Mughal period."
+                }
+            ]
+        },
+        {
+            "Yoma": []
+        },
+        {
+            "Tejavu": []
+        },
+        {
+            "aditya": [
+                {
+                    "role": "user",
+                    "content": "describe bangalore in 1-2 sentences"
+                },
+                {
+                    "role": "assistant",
+                    "content": "The bustling city of Bangalore, nestled amidst rolling hills and the Western Ghats, pulsates with life and energy. It boasts a rich cultural heritage, vibrant arts, and a thriving tech scene that has made it a global hub of innovation and economic power."
+                },
+                {
+                    "role": "user",
+                    "content": "about which city did i ask you about"
+                },
+                {
+                    "role": "assistant",
+                    "content": "I have learned that you are asking about the city of Bangalore in India."
+                }
+            ]
+        },
+        {
+            "Swaroop": []
+        },
+        {
+            "Yogi": []
+        },
+        {
+            "Shreyas": []
+        },
+        {
+            "Shasha": []
+        },
+        {
+            "Tejasr": []
+        },
+        {
+            "Shas": []
+        },
+        {
+            "ash": []
+        },
+        {
+            "Vija": []
+        },
+        {
+            "Sks": [
+                {
+                    "role": "user",
+                    "content": "Describe Taj Mahal in 5 lines "
+                },
+                {
+                    "role": "assistant",
+                    "content": "The Taj Mahal, a monument of love and beauty, stands as a testament to the enduring power of human affection. Its white marble fa\u00e7ade, adorned with intricate carvings and delicate filigree, casts a spellbinding glow on the surrounding landscape. The intricate details and soaring arches evoke a sense of awe and wonder, while the sheer scale and grandeur of the structure leave visitors in awe."
+                },
+                {
+                    "role": "user",
+                    "content": "Describe Taj Mahal in 5 "
+                },
+                {
+                    "role": "assistant",
+                    "content": "The Taj Mahal is a white marble mausoleum located in the heart of the city of Agra, India. It is a symbol of love and devotion between the Mughal emperor Shah Jahan and his wife, Mumtaz Mahal. The Taj Mahal was built in the memory of Mumtaz Mahal after her death in 1631. It is a masterpiece of Mughal architecture, with intricate carvings and a symmetrical design. The white marble used in the construction of the Taj Mahal is of the finest quality, and the intricate details and delicate patterns are a testament to the skill of the artisans who built it."
+                }
+            ]
+        },
+        {
+            "Priya": [
+                {
+                    "role": "user",
+                    "content": "Describe Taj Mahal in 5 lines "
+                },
+                {
+                    "role": "assistant",
+                    "content": "The Taj Mahal is a white marble mausoleum built by the Mughal emperor Shah Jahan in memory of his wife, Mumtaz Mahal. It is located in the city of Agra, India. The Taj Mahal is a UNESCO World Heritage Site and is considered one of the most beautiful buildings in the world. Its white marble facade is adorned with intricate designs and motifs, and its interior is decorated with precious stones and gold."
+                },
+                {
+                    "role": "user",
+                    "content": "Describe bat and ball"
+                },
+                {
+                    "role": "assistant",
+                    "content": "I cannot describe a bat and ball, as they are inanimate objects."
+                }
+            ]
+        },
+        {
+            "Aditya14": []
+        },
+        {
+            "Arpitha": []
+        },
+        {
+            "Nandan": []
+        },
+        {
+            "Anjan": []
+        },
+        {
+            "John": []
+        },
+        {
+            "Sjs": []
+        },
+        {
+            "Skss": []
+        },
+        {
+            "J": []
+        },
+        {
+            "Skssa": []
+        },
+        {
+            "Yogith": []
+        },
+        {
+            "Yash": []
+        }
+    ],
+    "credentials": [
+        {
+            "Teja": "$2b$12$oCHHCtYhQX6IU6XcXjOesOpF5Ov5y2wtffd3Cd4fdflzJMEN9ciWm"
+        },
+        {
+            "Yoma": "$2b$12$oCHHCtYhQX6IU6XcXjOesOzaRKuUROBV2HPp8n64bbMSZUojAs8CS"
+        },
+        {
+            "Tejavu": "$2b$12$oCHHCtYhQX6IU6XcXjOesOpF5Ov5y2wtffd3Cd4fdflzJMEN9ciWm"
+        },
+        {
+            "aditya": "$2b$12$oCHHCtYhQX6IU6XcXjOesOe5PSSsHUqB/g45l6lhMKPQy5Fbntk.m"
+        },
+        {
+            "Swaroop": "$2b$12$oCHHCtYhQX6IU6XcXjOesOW94MZz6z0u/Hif7j/SX.q2kEUa58KY."
+        },
+        {
+            "Yogi": "$2b$12$oCHHCtYhQX6IU6XcXjOesOzaRKuUROBV2HPp8n64bbMSZUojAs8CS"
+        },
+        {
+            "Shreyas": "$2b$12$oCHHCtYhQX6IU6XcXjOesOqopIKLZ/aVl23DyNkNGhvCfbV/BmkZW"
+        },
+        {
+            "Shasha": "$2b$12$oCHHCtYhQX6IU6XcXjOesOqopIKLZ/aVl23DyNkNGhvCfbV/BmkZW"
+        },
+        {
+            "Tejasr": "$2b$12$oCHHCtYhQX6IU6XcXjOesOpF5Ov5y2wtffd3Cd4fdflzJMEN9ciWm"
+        },
+        {
+            "Shas": "$2b$12$oCHHCtYhQX6IU6XcXjOesOqopIKLZ/aVl23DyNkNGhvCfbV/BmkZW"
+        },
+        {
+            "ash": "$2b$12$oCHHCtYhQX6IU6XcXjOesONFsstA.7aQg4.pqoPGfrc6KErhxQnSK"
+        },
+        {
+            "Vija": "$2b$12$oCHHCtYhQX6IU6XcXjOesO1LtVf3JTbae3Hv8WeaOtPXjys6PaXx2"
+        },
+        {
+            "Sks": "$2b$12$oCHHCtYhQX6IU6XcXjOesOLJN9tTnCncKg8maPOLajUhvUahs2LXm"
+        },
+        {
+            "Priya": "$2b$12$oCHHCtYhQX6IU6XcXjOesOJqA9JysseMXJWQ2GHPdycJx2rWrD8vu"
+        },
+        {
+            "Aditya14": "$2b$12$oCHHCtYhQX6IU6XcXjOesOjCCGqMkxud1FGsH.6xySndcoijVZ2p."
+        },
+        {
+            "Arpitha": "$2b$12$oCHHCtYhQX6IU6XcXjOesOo3ePYecNDy8Pjecoca3offbU.yk5cWW"
+        },
+        {
+            "Nandan": "$2b$12$oCHHCtYhQX6IU6XcXjOesOwlQm7/5zaH.KviTZW/vITl0U3JllWLi"
+        },
+        {
+            "Anjan": "$2b$12$oCHHCtYhQX6IU6XcXjOesOsyC7MTVGpiMXeOQv7zhrQxFs9DViVfG"
+        },
+        {
+            "John": "$2b$12$oCHHCtYhQX6IU6XcXjOesOsyC7MTVGpiMXeOQv7zhrQxFs9DViVfG"
+        },
+        {
+            "Sjs": "$2b$12$oCHHCtYhQX6IU6XcXjOesOLJN9tTnCncKg8maPOLajUhvUahs2LXm"
+        },
+        {
+            "Skss": "$2b$12$oCHHCtYhQX6IU6XcXjOesOlKkd3CRiXLvj/8CUbmWgmLn7HWlsXI."
+        },
+        {
+            "J": "$2b$12$oCHHCtYhQX6IU6XcXjOesOT61oHdu30B5H/tUc0pTdpSHpqxYG3EK"
+        },
+        {
+            "Skssa": "$2b$12$oCHHCtYhQX6IU6XcXjOesOHlcZNqcl8KSfZzJaupMuKDJvYZKZLUO"
+        },
+        {
+            "Yogith": "$2b$12$oCHHCtYhQX6IU6XcXjOesOsyC7MTVGpiMXeOQv7zhrQxFs9DViVfG"
+        },
+        {
+            "Yash": "$2b$12$oCHHCtYhQX6IU6XcXjOesOPQ9HvpCHqr3VA1lIwrN5lkgXRhEOO9S"
+        }
+    ],
+    "imgIdandcaptions": [
+        {
+            "Teja": []
+        },
+        {
+            "Yoma": []
+        },
+        {
+            "Tejavu": []
+        },
+        {
+            "aditya": []
+        },
+        {
+            "Swaroop": []
+        },
+        {
+            "Yogi": []
+        },
+        {
+            "Shreyas": []
+        },
+        {
+            "Shasha": []
+        },
+        {
+            "Tejasr": []
+        },
+        {
+            "Shas": []
+        },
+        {
+            "ash": []
+        },
+        {
+            "Vija": []
+        },
+        {
+            "Sks": []
+        },
+        {
+            "Priya": []
+        },
+        {
+            "Aditya14": []
+        },
+        {
+            "Arpitha": []
+        },
+        {
+            "Nandan": []
+        },
+        {
+            "Anjan": []
+        },
+        {
+            "John": []
+        },
+        {
+            "Sjs": []
+        },
+        {
+            "Skss": []
+        },
+        {
+            "J": []
+        },
+        {
+            "Skssa": []
+        },
+        {
+            "Yogith": []
+        },
+        {
+            "Yash": []
+        }
+    ]
+}
